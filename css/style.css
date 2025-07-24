@@ -1,0 +1,50 @@
+.inter-Language1 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.noto-serif-Language2 {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* 1. Navbar css */
+
+.nav-both{
+    width: 1140px;
+    margin: 0 auto;
+    /* align-items: center; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.liClass{
+    display: flex;
+    justify-content: space-between;
+    gap:48px;
+    list-style: none;
+}
+
+/* 1. Navbar css Responsive*/
+
+@media screen and (max-width: 576px) {
+    .hide{
+      display: none;
+    }
+    .nav-both{
+      width: 100%;
+      
+    }
+    
+    
+}
+      
+    
