@@ -14,37 +14,73 @@
     "wdth" 100;
 }
 
+/* shared class */
+section {
+  width: 1140px;
+  margin: 0 auto;
+}
+
 /* 1. Navbar css */
 
-.nav-both{
-    width: 1140px;
-    margin: 0 auto;
-    /* align-items: center; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 30px;
+.nav-both {
+  width: 1140px;
+  margin: 0 auto;
+  /* align-items: center; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
 }
 
-.liClass{
-    display: flex;
-    justify-content: space-between;
-    gap:48px;
-    list-style: none;
+.liClass {
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+  list-style: none;
 }
+
+.mainfirst {
+  display: flex;
+  margin-top: 130px;
+}
+
+.mainfirst-left h3 {
+  color: #000000;
+  font-weight: bold;
+  font-size: 65px;
+
+
+}
+
+.mainfirst-left p {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+  font-size: 22px;
+
+}
+
+
+
+
+
+.spanColor {
+  color: #E95A08;
+}
+
+
+
 
 /* 1. Navbar css Responsive*/
 
 @media screen and (max-width: 576px) {
-    .hide{
-      display: none;
-    }
-    .nav-both{
-      width: 100%;
-      
-    }
-    
-    
+  .hide {
+    display: none;
+  }
+
+  .nav-both {
+    width: 100%;
+
+  }
+
+
 }
-      
-    
