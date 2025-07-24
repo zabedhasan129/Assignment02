@@ -59,6 +59,16 @@ section {
 
 }
 
+.plants p {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.plants{
+  margin-top: 120px;
+  
+}
 
 
 
@@ -67,8 +77,36 @@ section {
   color: #E95A08;
 }
 
+.image-portion {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 
+}
 
+.plants-heading{
+  text-align: center;
+}
+
+.plants-top-portion {
+
+  font-weight: bold;
+  font-size: 50px;
+  
+}
+
+.box-image h4{
+  font-size: 500;
+  font-size: 22px;
+}
+.btn-primary{
+  color: #FFFFFF;
+  background-color: #E95A08;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 19px 80px;
+  border-radius: 10px;
+  border: none;
+}
 
 /* 1. Navbar css Responsive*/
 
