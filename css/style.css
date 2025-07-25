@@ -125,9 +125,7 @@ section {
   margin-top: 210px;
 }
 
-plantsLover-left{
-  
-}
+
 
 .Badge {
   width: 286px;
@@ -139,32 +137,120 @@ plantsLover-left{
   z-index: 1;
   margin-left: 347px;
   margin-top: -127px;
-  
+
 }
-.badge-picture{
+
+.badge-picture {
   height: 597px;
   width: 540px;
-  
+
 }
-.plapntsLover-right{
+
+.plapntsLover-right {
   margin-left: 60px;
 }
 
-.plapntsLover-right h3{
-    font-size: 50px;
-    font-weight: bold;
-    color: #000000;
-    margin-top: 38px;
-    margin-bottom: 20px;
+.plapntsLover-right h3 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #000000;
+  margin-top: 38px;
+  margin-bottom: 20px;
 }
 
-.plapntsLover-right ul li{
-    font-size: 22px;
-    font-weight: 400;
-    color: rgba(0, 0, 0, 0.5);
-    margin-top: 20px;
-    line-height: auto;
-    
+.plapntsLover-right ul li {
+  font-size: 22px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+  line-height: auto;
+
+}
+
+
+/* deals css */
+
+.deals-portion {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.deals-image-left {
+  width: 50%
+}
+
+.deals-image-right {
+  width: 100%
+}
+
+.deals-image1 {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: bold;
+  background-image: url("../assets/deal-bloom.png");
+  width: 366px;
+  height: 206px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 25px;
+  border-radius: 15px;
+
+}
+
+
+.deals-image2 {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: bold;
+  background-image: url("../assets/deal-ana.png");
+  width: 402px;
+  height: 268px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 15px;
+}
+
+
+.deals-image-right {
+  color: #FFFFFF;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-size: 20px;
+  font-weight: bold;
+  background-image: url("../assets/deal-zabo.png");
+  background-repeat: no-repeat;
+  width: 1140px;
+  height: 423.12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 28px;
+  border-radius: 15px;
+}
+
+.deals-image1 p {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.deals-image2 p {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.deals-image-right p {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 
