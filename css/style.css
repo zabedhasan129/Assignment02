@@ -253,6 +253,90 @@ section {
   font-weight: 500;
 }
 
+/* colorful bunch CSS */
+
+.banner {
+  height: 533px;
+  width: 100%;
+
+  background-image: url('../assets/news-letter-bg.png');
+
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.content {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+
+}
+
+.inputs {
+  margin-top: 20px;
+}
+
+.inputs input[type="email"] {
+  padding: 16px 540px 16px 20px;
+}
+
+.inputs input[type="button"] {
+  padding: 16px 53.5px
+}
+
+.parantBox {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 50px 160px; */
+  padding: 50px;
+}
+
+
+.footer-mid ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 26px;
+  column-gap: 50px;
+
+}
+
+.footer-mid ul li {
+  list-style: none;
+}
+
+.footer-left p {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.footer-left {
+  margin-right: 50px;
+}
+
+.footer-mid {
+  margin-right: 50px;
+
+}
+
+.footer-right {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 24px;
+
+}
+
+.position {
+  margin-top: 10px;
+}
+
+
+
+
 
 
 
